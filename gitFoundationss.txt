@@ -1,0 +1,14 @@
+To install git: 
+To download the software point your browser to gitforwindows.org and download the latest version.
+Once the download is complete run the installer accepting the default options.
+When the installer is finished we now have Git installed.
+To verify, open a new command prompt and type git and enter.
+You should now see a totally different output.
+What this output tells us is all the possible git commands. We will go through the most important commands in this course.
+
+Push sends our changes from the local to the remote repository.
+Fetch retrieves changes from the remote to the local repository.
+Git clone creates a local git managed project based on the link provided. eg: git clone https://github.com/snehakumarisdbc/gitCourse.git
+Git remote -V displays the link to the remote repository. eg: git remote -v
+origin  https://github.com/snehakumarisdbc/gitCourse.git (fetch)
+origin  https://github.com/snehakumarisdbc/gitCourse.git (push)
