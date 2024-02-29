@@ -1,4 +1,4 @@
-Commit :
+1) COMMIT :
 A set of saved repository changes.
 A commit is never lost.
 A commit has a hash key - 5dbd36e8aeec02cf5492edfeb3f4daba467a5315
@@ -15,3 +15,13 @@ git add . -> git add adds all the files that we have changed to the staging area
 git commit -> The git commit command simply creates a new commit. The -m "Initial commit" adds a comment.
               git commit -m "First commit"
 git log    -> This command shows us a list of the commits in our project.
+
+2) STAGING: 
+Staging one or more files simply means marking them to be committed.
+Sometimes you want only certain file changes to be committed not all. In that case we can use the specific file names.
+eg: git add file1.txt file3.txt file5.txt
+
+git status-> Print repository status.We see the difference between the stage files that appear under the heading changes to be committed
+             and the unstaged files that appear under the heading untracked files.
+git reset -> Remove one or more file from staging. To remove the file from staging and mark it as untracked.
+             git reset <file_name>
