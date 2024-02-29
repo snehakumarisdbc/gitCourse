@@ -1,0 +1,17 @@
+Commit :
+A set of saved repository changes.
+A commit is never lost.
+A commit has a hash key - 5dbd36e8aeec02cf5492edfeb3f4daba467a5315
+A commit is always the same.
+
+To Commit :
+Let's go ahead and create a commit on our repository. Open a command prompt and go into the project we created earlier.
+Let's create a file add some text to it. Whether you're on Windows or Mac you can type
+echo Hello world > Readme.md and the name of the file, which is Readme.md
+
+let's go ahead and create a commit from these changes.We'll do this with two commands.
+git add . -> git add adds all the files that we have changed to the staging area.
+             The dot at the end tells git to add all the files that have changed.
+git commit -> The git commit command simply creates a new commit. The -m "Initial commit" adds a comment.
+              git commit -m "First commit"
+git log    -> This command shows us a list of the commits in our project.
